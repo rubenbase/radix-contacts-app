@@ -1,1 +1,16 @@
-
+{
+  "name": "radix-contacts-app",
+  "version": "1.0.0",
+  "description": "App to manage your contacts securely",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "secure",
+    "contacts",
+    "management"
+  ],
+  "author": "Ruben Costa",
+  "license": "ISC"
+}
