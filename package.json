@@ -2,9 +2,11 @@
   "name": "radix-contacts-app",
   "version": "1.0.0",
   "description": "App to manage your contacts securely",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "npm run build && electron dist/main.js"
   },
   "keywords": [
     "secure",
@@ -14,6 +16,11 @@
   "author": "Ruben Costa",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.1.3"
+    "electron": "^11.2.1",
+    "html-webpack-plugin": "^4.5.1",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0"
   }
 }
