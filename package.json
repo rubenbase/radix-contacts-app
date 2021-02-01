@@ -12,5 +12,8 @@
     "management"
   ],
   "author": "Ruben Costa",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
