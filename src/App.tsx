@@ -1,5 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
+import 'regenerator-runtime/runtime'
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom'
 
 import Auth from './pages/auth'
