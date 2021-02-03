@@ -11,7 +11,7 @@ import EditContactForm from '../../components/edit-contact-form/EditContactForm'
 // const store = new Store()
 
 // NOTE: Please provide a method for editing existing contacts.  All fields should be editable.
-// Those 2 fields would behave in the same way, so for time concerns I'm keeping it simple
+// Those 2 missing fields (Email address and address) would behave in the same way, so for time concerns I'm keeping it simple
 // TODO: Update the CRUD actions to be performed within the store
 const dummyData = [
   {
