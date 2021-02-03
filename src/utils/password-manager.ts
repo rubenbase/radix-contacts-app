@@ -3,6 +3,7 @@ import { promisify } from 'util'
 
 const scryptAsync = promisify(scrypt)
 
+// Kept it simple, another option that I usually use for hashing is argon
 export class PasswordManager {
   static async toHash(password: string) {
     const salt = randomBytes(8).toString('hex')

@@ -2,8 +2,9 @@ import React from 'react'
 
 import PasswordForm from '../../components/password-form'
 
-import { createUsersConfigFile } from '../../utils/file-system'
+import { createUsersConfigFile } from '../../utils/user-config'
 
+// In a real case I wouldn't hardcode the texts, would keep them in a constants file
 const Setup: React.FC = () => {
   return (
     <PasswordForm
