@@ -32,7 +32,7 @@ You can find comments across the code explaining a bit on why I did that particu
 
 Unfortunaly I can't spend a lot of time doing this type of exercises since apart from my current position I do work on the side and you can probably notice the difference of the Password components (had better encapsulation and rehusability) vs the contacts one (had to put the sixth gear to complete the CRUD before going to sleep lol, so the Icons are not even created into components, etc).
 
-In a real case scenario I would add more error handling, add some logger solution like morgan, to keep it safe we would need a backend to store the keys for hashing since the front is never safe.
+Next steps would be adding more error handling, add some logger solution like morgan, to keep it safe we would need a backend to store the keys for hashing since the front is never safe, add validation for the data inputs, tests...
 
 Feel free to ask any questions about the code.
 
